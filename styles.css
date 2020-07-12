@@ -1,0 +1,148 @@
+#title{
+  background-color: #ff4c68;
+
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 3% 15%;
+  padding-bottom: 7%;
+}
+/* navigation bar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.nav-item{
+  padding:0 18px;
+}
+.nav-link{
+  font-size: 1rem;
+}
+
+.navbar-brand{
+  font-family: "ubuntu";
+  font-size: 2.25rem;
+  font-weight: bold;
+  padding-bottom: 3%;
+}
+
+/* download-buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* title-image */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 35%;
+}
+
+/* features */
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+p{
+  color: #8f8f8f;
+}
+#features{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+}
+.icon{
+  color: #ef8172;
+  padding-bottom: 3%;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+
+/* testimonials */
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  font-family: 'Montserrat';
+  color: #fff;
+}
+h2{
+
+  font-family: 'Montserrat';
+}
+.dog-img{
+  padding: 3% 5%;
+  border-radius: 100%;
+  width: 27%;
+}
+/* press */
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+}
+.press-image{
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+.testimonial-image{  padding: 3% 5%;
+  border-radius: 100%;
+  width: 27%;}
+
+  #testimonial-carousel{
+    padding: 7% 15%;
+  }
+/* pricing */
+
+#pricing{
+  text-align: center;
+  padding: 7% 15% 9%;
+}
+.pricing-column{
+  padding: 3% 5%;
+}
+
+@media (max-width: 1000px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+
+}
+/* call-to-action */
+
+#cta{
+  background-color:#ff4c68;
+  text-align: center;
+  padding: 3% 15%;
+  font-weight: bolder;
+  color: #fff;
+
+}
+
+/* footer */
+
+#footer{
+  background-color: #fff;
+  text-align: center;
+  padding: 3% 15%;
+}
+.social{
+    margin: 1% 1% 1.5% 0;
+}
